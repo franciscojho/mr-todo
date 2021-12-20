@@ -1,0 +1,28 @@
+.todo__item {
+    display: flex;
+    align-content: center;
+    border-top: 1px solid rgba(77, 70, 70, 0.2);
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px;
+
+    .todo__item-desc {
+        text-align: justify;
+        margin: 0;
+    }
+
+    .todo__item-control {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .todo__item-delete {
+        cursor: pointer;
+    }
+
+}
+
+.todo__item--completed {
+    background-color: rgb(0, 255, 127, 0.3);
+}
